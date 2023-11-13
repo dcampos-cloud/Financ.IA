@@ -1,16 +1,73 @@
-body{
+
+body {
   background-color: #06182b;
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media (max-width: 991px){
+
+
+@media (max-width: 991px) {
   .sidebar {
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
   }
 }
 
+.scale-on-hover {
+  transition: 0.2s;
+}
+
+.scale-on-hover:hover {
+  transform: scale(1.025);
+}
+
+.scale-on-hover-2 {
+  transition: 0.2s;
+}
+
+.scale-on-hover-2:hover {
+  transform: scale(1.06);
+}
+
+.unscale-on-click {
+  transition: 0.1s;
+}
+
+.unscale-on-click:active {
+  transform: scale(1);
+}
+
+.card, .card-img-top {
+  border-radius: 1.25rem;
+}
+
+p {
+  text-align: justify;
+}
+
+
+
+.form-container {
+  border-radius: 1rem;
+  border-style: double;
+  border-color: white;
+  width: 40%;
+  margin: auto;
+}
+
+.pointer-on-hover {
+  cursor: pointer;
+}
+
+.box-3d {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
+}
+
+.centered-text {
+  text-align: center;
+}
