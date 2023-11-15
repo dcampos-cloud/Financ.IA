@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
 
 body {
   background-color: #06182b;
@@ -6,7 +7,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: aliceblue;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 
@@ -70,4 +71,12 @@ p {
 
 .centered-text {
   text-align: center;
+}
+
+#header-and-first-section-container {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }

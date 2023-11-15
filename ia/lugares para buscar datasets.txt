@@ -1,0 +1,15 @@
+Kaggle: Kaggle é uma plataforma popular para cientistas de dados e entusiastas que oferece uma variedade de conjuntos de dados em formato CSV. Você pode explorar os conjuntos de dados por meio de competições, projetos e datasets públicos.
+
+UCI Machine Learning Repository: A Universidade da Califórnia, Irvine, mantém um repositório de conjuntos de dados usados na comunidade de aprendizado de máquina e análise de dados. Eles oferecem muitos desses conjuntos em formato CSV.
+
+Data.gov: Data.gov é um repositório mantido pelo governo dos Estados Unidos que oferece uma ampla gama de conjuntos de dados de diversas agências federais. Os conjuntos de dados estão disponíveis em vários formatos, incluindo CSV.
+
+Awesome Public Datasets: É uma lista curada no GitHub que reúne diversos conjuntos de dados públicos e abertos para uma variedade de propósitos. Muitos desses conjuntos estão disponíveis em formato CSV.
+
+Google Dataset Search: Esta é uma ferramenta do Google que permite pesquisar conjuntos de dados de todo o mundo. Você pode filtrar os resultados por formato, incluindo CSV.
+
+Reddit Datasets: A comunidade do Reddit tem um subreddit chamado "r/datasets" onde os usuários compartilham e discutem conjuntos de dados interessantes. Muitos desses conjuntos estão disponíveis em formato CSV.
+
+GitHub: Muitos desenvolvedores e pesquisadores compartilham conjuntos de dados em repositórios do GitHub. Você pode usar a função de busca do GitHub para encontrar conjuntos de dados específicos.
+
+Open Data Portals: Muitas cidades, estados e governos têm seus próprios portais de dados abertos, onde disponibilizam conjuntos de dados para o público. Esses conjuntos podem estar em formato CSV.
