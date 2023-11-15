@@ -8,13 +8,30 @@ for(let i = 0; i < ativos.length; i++) {
     seletorAtivos.appendChild(option);
 }
 
-const seletorEmail = document.getElementById("seletorEmail");
-const divEmail = document.getElementById("divEmail");
+btnEnviar.addEventListener("click", function(e){
+    e.preventDefault();
+    const select_ativos = seletorAtivos.options[seletorAtivos.selectedIndex].text;
+    console.log(select_ativos);
+    enviar_dados(select_ativos);
+})
 
-seletorEmail.addEventListener("change", function() {
-    if (seletorEmail.value === "Sim") {
-        divEmail.style.display = "block";
-    } else {
-        divEmail.style.display = "none";
-    }
-});
+function enviar_dados(ativo){
+
+    const dados = {
+      ativo_select: ativo
+    };
+
+    let url = "http://127.0.0.1:5000/api/venda_futura";
+    fetch(url,{
+        method: "POST",
+        headers: {"Content-Type":"application/json"},
+        body: JSON.stringify(dados)
+    })
+    .then(Response => Response.json())
+    .then(data => {
+        console.log(data)
+    })
+    .catch((e) => {
+        console.log("Erro " + e)
+    })
+}
