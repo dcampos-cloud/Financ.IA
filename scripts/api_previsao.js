@@ -1,15 +1,15 @@
 const ativos = [
-  "TGAR11.SA",
-  "VGIR11.SA",
-  "ativo3",
-  "ativo4",
-  "ativo5",
-  "ativo6",
-  "ativo7",
-  "ativo8",
-  "ativo9",
-  "ativo10",
-];
+    "TGAR11.SA",
+    "VGIR11.SA",
+    "MXRF11.SA",
+    "HGLG11.SA",
+    "IRDM11.SA",
+    "BRCR11.SA",
+    "BTLG11.SA",
+    "XPML11.SA",
+    "KNCR11.SA",
+    "KNIP11.SA",
+  ];
 const seletorAtivos = document.getElementById("seletorAtivos");
 const btnEnviar = document.getElementById("btnEnviar");
 
